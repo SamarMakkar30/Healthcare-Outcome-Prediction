@@ -41,18 +41,7 @@ class Settings(BaseSettings):
         description="JWT signing key - MUST be changed in production"
     )
     encryption_key: Optional[str] = None
-    allowed_origins: list = [
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "http://localhost:8000",
-        "http://127.0.0.1:8000",
-        "https://healthcare-outcome-prediction.vercel.app",
-        "https://healthcareoutcomeprediction.vercel.app",
-        "https://healthcareoutcomeprediction-git-main-samarmakkar30s-projects.vercel.app",
-        "https://healthcareoutcomeprediction-2k09npm18-samarmakkar30s-projects.vercel.app",
-    ]
+    allowed_origins: list = ["*"]
     
     # Database
     database_url: str = "sqlite:///./healthcare_ml.db"
