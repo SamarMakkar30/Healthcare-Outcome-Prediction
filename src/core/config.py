@@ -49,6 +49,9 @@ class Settings(BaseSettings):
         "http://localhost:8000",
         "http://127.0.0.1:8000",
         "https://healthcare-outcome-prediction.vercel.app",
+        "https://healthcareoutcomeprediction.vercel.app",
+        "https://healthcareoutcomeprediction-git-main-samarmakkar30s-projects.vercel.app",
+        "https://healthcareoutcomeprediction-2k09npm18-samarmakkar30s-projects.vercel.app",
     ]
     
     # Database
