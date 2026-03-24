@@ -34,7 +34,6 @@ env/
 venv/
 
 # Models and Data
-models/*.pkl
 data/encrypted/*
 data/raw/*.csv
 !data/raw/.gitkeep
