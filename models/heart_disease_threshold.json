@@ -1,0 +1,6 @@
+{
+  "disease_type": "heart_disease",
+  "model_name": "bootstrap_random_forest",
+  "optimal_threshold": 0.5,
+  "notes": "Bootstrap model generated for runtime compatibility"
+}
